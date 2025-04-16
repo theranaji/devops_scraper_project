@@ -11,7 +11,7 @@ WORKDIR /app
 COPY scrape.js package.json ./
 RUN npm install
 
-ENV SCRAPE_URL=https://example.com
+ENV SCRAPE_URL=https://scrape_devopstest.com
 RUN node scrape.js
 
 # Stage 2: Serving with Python

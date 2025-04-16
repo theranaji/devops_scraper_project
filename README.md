@@ -7,7 +7,7 @@ docker build -t devops-scraper .
 
 ## 🚀 Run the Container with URL to Scrape
 ```bash
-docker run -e SCRAPE_URL=https://example.com -p 5000:5000 devops-scraper
+docker run -e SCRAPE_URL=https://scrape_devopstest.com -p 5000:5000 devops-scraper
 ```
 
 ## 🌐 Access the Data
