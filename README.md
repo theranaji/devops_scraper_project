@@ -7,13 +7,13 @@ docker build -t devops-scraper .
 
 ## 🚀 Run the Container with URL to Scrape
 ```bash
-docker run -e SCRAPE_URL=https://scrape_devopstest.com -p 5000:5000 devops-scraper
+docker run -e SCRAPE_URL=https://www.tripadvisor.in-p 5001:5001 devops-scraper
 ```
 
 ## 🌐 Access the Data
 Open your browser and go to:
 ```
-http://localhost:5000
+http://localhost:5001
 ```
 
 You will see the scraped JSON data from the specified URL.

@@ -3,7 +3,7 @@ const fs = require('fs');
 
 (async () => {
   try {
-    const url = process.env.SCRAPE_URL || 'https://example.com';
+    const url = process.env.SCRAPE_URL || 'https://www.tripadvisor.in';
     console.log('Scraping:', url);
 
     const browser = await puppeteer.launch({
